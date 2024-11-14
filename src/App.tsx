@@ -1,5 +1,7 @@
 import './App.css'
-import { Button, Pagination } from "@snow-design/components";
+import { Button, ConfigProvider, Pagination } from "@snow-design/components";
+import React from "react";
+import { zh_CN } from '@snow-design/locale';
 
 function App() {
   return (
@@ -15,7 +17,12 @@ function App() {
               Pagination:
               <Pagination total={20} pageSize={2} showTotal></Pagination>
           </div>
-
+          <div className="box">
+              <ConfigProvider locale={zh_CN}>
+                  Pagination:
+                  <Pagination total={20} pageSize={2} showTotal></Pagination>
+              </ConfigProvider>
+          </div>
       </>
   )
 }
