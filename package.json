@@ -10,16 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@snow-design/components": "^0.0.31",
-    "@snow-design/locale": "^0.0.31",
+    "@snow-design/components": "^0.0.32",
+    "@snow-design/locale": "^0.0.32",
     "@snow-design/snow-theme-dark": "^0.0.4",
-    "@snow-design/theme-default": "^0.0.31",
+    "@snow-design/theme-default": "^0.0.32",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
-    "@snow-design/vite-plugin": "^0.0.31",
+    "@snow-design/vite-plugin": "^0.0.32",
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.2",
